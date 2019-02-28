@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic || Quang</title>
+    <!--  Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- Typography -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One|Pacifico" rel="stylesheet">
+
+    <!-- View port -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Jumbotron for Header part -->
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, Funny Animals!</h1>
+            <!-- <p class="lead">Bla bla bla</p> -->
+            <!-- <hr class="my-4"> -->
+        </div>
+
+
+        <!-- Rendered buttons for animals those are included in the Animal Array  -->
+        <div class="row">
+            <div class="col-sm-12" id="buttons"></div>
+        </div>
+
+        <!-- Button for adding an animal -->
+
+        <form id="animal-form">
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="animal-input">Add an animal you like, then click "Here we go!" to see the magic!</label>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 add-animal-btn">
+                        <input id="add-animal" type="submit" value="Here we go!">
+                    </div>
+                    <div class="col-md-6"> <input type="text" id="animal-input">
+                    </div>
+                </div>
+
+
+            </div>
+        </form>
+
+
+        <!-- Animals appear here -->
+
+        <div class="row">
+            <div class="col-md-12 col-12" id="gifs-appear-here"></div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>

@@ -1,0 +1,90 @@
+body {
+    /* background-color: lightsteelblue; */
+    background-image: linear-gradient(to right, purple, rgb(2, 56, 2));
+}
+
+.container {
+    border: 2px solid orange;
+    border-style: double;
+    border-spacing: 2px;
+    border-width: 2px; 
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.jumbotron {
+    margin-top: 10px;
+    /* background-image: url(../images/animals.jpg); */
+    background-image: url(../images/animals-wallpaper-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 2px orange, 0 0 1em green, 0 0 0.2em pink;
+    /* text-shadow: -1px 0 yellow, 0 1px blue, 1px 0 black, 0 -1px pink; */
+}
+
+.row {
+    padding: 10px 10px;
+    
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: blue;
+    border: 2px solid yellowgreen;
+    color: yellow;
+    border-radius: 8px;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#buttons :hover {
+    background-color: green;
+    border: 2px solid orange;
+    color: rgb(219, 191, 28);
+}
+
+label {
+        color: orange;
+        font-family: 'Leckerli One', cursive;
+        font-size: 1.5em;
+}
+
+#add-animal, #animal-input {
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-size: 20px;
+    /* background-color: blueviolet; */
+}
+
+.add-animal-btn {
+    color:blue;
+} 
+
+.add-animal-btn :hover {
+    background-color: rgb(76, 20, 231);
+    color: lightblue;
+}
+
+p {
+    color: orange;
+    font-family: 'Leckerli One', cursive;
+    padding-top: 25px;
+}
+
+.gif {
+    border: 2px solid orange;
+    display: inline-block;
+    /* height: 150px;
+    widows: 150px; */
+}
+/* #gifs-appear-here {
+    display: inline-block;
+} */
+

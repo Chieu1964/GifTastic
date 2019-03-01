@@ -60,12 +60,13 @@ label {
     text-align: center;
     font-family: 'Leckerli One', cursive;
     font-size: 20px;
+    
     /* background-color: blueviolet; */
 }
 
-.add-animal-btn {
+/* #add-animal {
     color:blue;
-} 
+}  */
 
 .add-animal-btn :hover {
     background-color: rgb(76, 20, 231);
@@ -82,9 +83,5 @@ p {
     border: 2px solid orange;
     display: inline-block;
     /* height: 150px;
-    widows: 150px; */
+    width: 150px; */
 }
-/* #gifs-appear-here {
-    display: inline-block;
-} */
-
